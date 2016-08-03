@@ -1,0 +1,73 @@
+body {
+    width: 1020px;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    font-size: 28px;
+}
+header {
+    font-family: 'Lobster';
+    background: #535353;
+    height: 94px;
+    color: #ffffff;
+}
+
+#sitename {
+    height: 70px;
+    width: 235px;
+    float: left;
+    margin-left: 45px;
+    margin-top: 24px;
+}
+#sitename a {
+    display: block;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 36px;
+    color: #ffffff;
+}
+#sitecit {
+    line-height: 102px;
+    font-size: 20px;
+}
+nav {
+    border-bottom: solid 3px;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 10px;
+}
+.menu:before {
+    margin: 0px 20px;
+    content: '/ ';
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'PT Sans Narrow';
+    font-size: 24px;
+}
+nav a:hover {
+    border-bottom: solid 2px;
+}
+
+#post_list {
+    float: left;
+    width: 460px;
+    padding: 10px;
+    margin: 0px 15px;
+}
+
+#post_list h2 a {
+    text-decoration: none;
+    color: #242424;
+}
+#post_list h2 a:hover{
+    border-bottom: 2px solid;
+}
+#post_list h2 p {
+    width: 460px
+}

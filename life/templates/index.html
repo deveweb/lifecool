@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block title %}
+<title> Главная|lifecool.org.ru </title>
+{% endblock %}
+{% block content %}
+{% for post in post_list %}
+<h2><a href={{url_for('post', namecat=namecat, post_title=post.title)}}>{{post.title}}</a></h2>
+<p>{{post.anons}}</p>
+{% endfor %}
+{% endblock %}

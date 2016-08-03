@@ -1,0 +1,11 @@
+.Python
+bin
+lib
+include
+*.py[cod]]
+*.db
+flk/
+migrations
+migrations/
+__pycache__
+life/static/image
