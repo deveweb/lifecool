@@ -10,7 +10,8 @@ def category_context():
 @app.route('/')
 @app.route('/index')
 def index():
-    return render_template("index.html")
+    post_list=Post.query.all()
+    return render_template("index.html", post_list=post_list, path_image=path_image)
 
 @app.route('/topics/<namecat>')
 def category_post(namecat):
